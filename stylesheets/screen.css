@@ -1,0 +1,62 @@
+* {
+	font-family: monospace, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+html {
+  margin-top: 50px;
+  background-color: #FBFBFB;
+}
+
+header, footer, section, h1, h2 {
+  width: 625px;
+  margin: 0px auto;
+  margin-bottom: 1em;
+  color: #414141;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 0.4em;
+}
+
+header:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+section ul {
+  margin-left: 20px;
+}
+
+p#map-legend {
+  font-size: 0.9em;
+}
+
+footer {
+  border-top: 1px #ccc solid;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+footer p a {
+  font-size: 1em;
+  color: #aaa;
+}
