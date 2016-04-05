@@ -42,6 +42,60 @@
               "url": "https://twitter.com/nuitdebout36"
             }
           ]
+        },
+        {
+          "name": "Le Mans",
+          "links": [
+            {
+              "name": "Facebook",
+              "url": "https://www.facebook.com/Nuitdeboutlemans-457540527768853/"
+            }
+          ]
+        },
+        {
+          "name": "Lyon",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutLyon"
+            }
+          ]
+        },
+        {
+          "name": "Metz",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutMetz"
+            }
+          ]
+        },
+        {
+          "name": "Nantes",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDebout44"
+            }
+          ]
+        },
+        {
+          "name": "Rennes",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/RennesDebout"
+            }
+          ]
+        },
+        {
+          "name": "Strasbourg",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDStrasbourg"
+            }
+          ]
         }
       ]
     }
