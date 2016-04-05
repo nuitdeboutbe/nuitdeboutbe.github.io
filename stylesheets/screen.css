@@ -41,8 +41,8 @@ section ul {
   margin-left: 20px;
 }
 
-p#map-legend {
-  font-size: 0.9em;
+p#map-legend a {
+  font-size: 0.8em;
 }
 
 footer {
