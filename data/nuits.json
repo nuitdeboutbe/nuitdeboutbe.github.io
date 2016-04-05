@@ -35,11 +35,74 @@
           ]
         },
         {
-          "name": "Châteauroux ",
+          "name": "Ales",
           "links": [
             {
               "name": "Twitter",
-              "url": "https://twitter.com/nuitdebout36"
+              "url": "https://twitter.com/NuitD_Ales"
+            }
+          ]
+        },
+        {
+          "name": "Avignon",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDebout84"
+            }
+          ]
+        },
+        {
+          "name": "Bordeaux",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDebout33"
+            }
+          ]
+        },
+        {
+          "name": "Caen",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/CaenLoiTravail"
+            }
+          ]
+        },
+        {
+          "name": "Châteauroux",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDebout36"
+            }
+          ]
+        },
+        {
+          "name": "Clermont",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/DeboutClermont"
+            }
+          ]
+        },
+        {
+          "name": "Doubs",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDebout25"
+            }
+          ]
+        },
+        {
+          "name": "Grenoble",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutGre"
             }
           ]
         },
@@ -47,8 +110,30 @@
           "name": "Le Mans",
           "links": [
             {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutLM"
+            },
+            {
               "name": "Facebook",
               "url": "https://www.facebook.com/Nuitdeboutlemans-457540527768853/"
+            }
+          ]
+        },
+        {
+          "name": "Le Havre",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NHavre"
+            }
+          ]
+        },
+        {
+          "name": "Lille",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutLille"
             }
           ]
         },
@@ -80,6 +165,42 @@
           ]
         },
         {
+          "name": "Nancy",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutNancy"
+            }
+          ]
+        },
+        {
+          "name": "Nice",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutN"
+            }
+          ]
+        },
+        {
+          "name": "Nîmes",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NimesDebout"
+            }
+          ]
+        },
+        {
+          "name": "Pau",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutPau"
+            }
+          ]
+        },
+        {
           "name": "Rennes",
           "links": [
             {
@@ -89,11 +210,38 @@
           ]
         },
         {
+          "name": "Sant-Etienne",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDebout42"
+            }
+          ]
+        },
+        {
           "name": "Strasbourg",
           "links": [
             {
               "name": "Twitter",
               "url": "https://twitter.com/NuitDStrasbourg"
+            }
+          ]
+        },
+        {
+          "name": "Toulouse",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDeboutTlse"
+            }
+          ]
+        },
+        {
+          "name": "Vendée",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/NuitDebout85"
             }
           ]
         }
