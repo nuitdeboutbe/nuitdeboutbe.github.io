@@ -1,0 +1,49 @@
+{
+  "countries": [
+    {
+      "name": "Belgique",
+      "cities": [
+        {
+          "name": "Bruxelles",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/nuitdeboutbxl"
+            },
+            {
+              "name": "Facebook",
+              "url": "https://www.facebook.com/Bruxelles_nuit_debout-1715229322083840/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "cities": [
+        {
+          "name": "Paris",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/nuitdebout"
+            },
+            {
+              "name": "Site",
+              "url": "http://www.nuitdebout.fr"
+            }
+          ]
+        },
+        {
+          "name": "Châteauroux ",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/nuitdebout36"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
