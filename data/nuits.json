@@ -142,6 +142,19 @@
           ]
         },
         {
+          "name": "Lorient",
+          "links": [
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/lorientdebout"
+            },
+            {
+              "name": "Facebook",
+              "url": "https://www.facebook.com/NuitDebout-Lorient-206623113049744"
+            }
+          ]
+        },
+        {
           "name": "Lyon",
           "links": [
             {
