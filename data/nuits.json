@@ -21,6 +21,15 @@
           ]
         },
         {
+          "name": "Charleroi",
+          "links": [
+            {
+              "name": "Facebook",
+              "url": "https://www.facebook.com/events/264237123909029/permalink/264581937207881/"
+            }
+          ]
+        },
+        {
           "name": "Liège",
           "links": [
             {
@@ -37,17 +46,7 @@
               "url": "https://www.facebook.com/Nuitdebout-Namur-706645572772499/"
             }
           ]
-        },
-        {
-          "name": "Charleroi",
-          "links": [
-            {
-              "name": "Facebook",
-              "url": "https://www.facebook.com/events/264237123909029/permalink/264581937207881/"
-            }
-          ]
         }
-        
       ]
     },
     {
