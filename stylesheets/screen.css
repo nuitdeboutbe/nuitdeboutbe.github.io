@@ -69,9 +69,11 @@ footer p a {
 
 /* Map section _________________________________________________________________*/
 
-#map iframe{
+#map iframe,
+#social iframe {
   width:100% !important;
 }
+
 p#map-legend a {
   font-size: 0.8em;
 }
