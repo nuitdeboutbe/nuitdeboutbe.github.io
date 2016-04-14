@@ -33,6 +33,10 @@
           "name": "Liège",
           "links": [
             {
+              "name": "Twitter",
+              "url": "https://twitter.com/nuitdeboutliege"
+            },
+            {
               "name": "Facebook",
               "url": "https://www.facebook.com/NuitDeboutLiege"
             }
