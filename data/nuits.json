@@ -39,6 +39,15 @@
           ]
         },
         {
+          "name": "Hasselt",
+          "links": [
+            {
+              "name": "Facebook",
+              "url": "https://www.facebook.com/NuitDeboutHasselt/"
+            }
+          ]
+        },
+        {
           "name": "Louvain-la-Neuve",
           "links": [
             {
