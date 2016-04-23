@@ -1,0 +1,17 @@
+<div id="output"></div>
+
+<script type="text/javascript" charset="utf-8">
+  var output = document.getElementById("output");
+  var dateString = "2016-04-28T19:00:00+0200";
+
+  var d1 = new Date(dateString);
+  console.log("--- d1: " + d1);
+  output.innerHTML = "--- d1: " + d1;
+
+  output.innerHTML+= "<br>"
+
+  var d2 = new Date;
+  d2.setTime(Date.parse(dateString));
+  console.log("--- d2: " + d2);
+  output.innerHTML += "--- d2: " + d2;
+</script>
