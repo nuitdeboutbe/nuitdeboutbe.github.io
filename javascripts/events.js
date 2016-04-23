@@ -6,6 +6,17 @@ function parseEvents() {
   });
 }
 
+// because of Safari
+function stringToDate(dateStr) {
+  var year = dateStr.substr(0, 4);
+  var month = dateStr.substr(5, 2);
+  var day = dateStr.substr(8, 2);
+  var hour = dateStr.substr(11, 2);
+  var min = dateStr.substr(14, 2);
+
+  return new Date(year, month - 1, day, hour, min, 0, 0); 
+}
+
 function buildEventsElements(JSONData) {
   console.log('--- parsing data');
   var eventsContainer = $('#events-container');
@@ -23,7 +34,7 @@ function buildEventsElements(JSONData) {
         eventsString += "\t<ul>\n";
         for (j = 0, nbEvents = events.length; j < nbEvents; j++) {
           var event = events[j];
-          var startDate = new Date(event.start_time);
+          var startDate = stringToDate(event.start_time);
           var fStartDate = startDate.getDate() + "/";
           fStartDate += startDate.getMonth() + 1 + "/";
           fStartDate += startDate.getFullYear() + " - ";
