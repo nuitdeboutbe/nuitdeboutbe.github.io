@@ -1,17 +1,23 @@
 <div id="output"></div>
 
 <script type="text/javascript" charset="utf-8">
+
+function stringToDate(dateStr) {
+  console.log("date: " + dateStr);
+  var year = dateStr.substr(0, 4);
+  var month = dateStr.substr(5, 2);
+  var day = dateStr.substr(8, 2);
+  var hour = dateStr.substr(11, 2);
+  var min = dateStr.substr(14, 2);
+  console.log("result: " + year + "-" + month + "-" + day + " " + hour + ":" + min);
+  return new Date(year, month - 1, day, hour, min, 0, 0); 
+}
+
+
   var output = document.getElementById("output");
   var dateString = "2016-04-28T19:00:00+0200";
 
-  var d1 = new Date(dateString);
-  console.log("--- d1: " + d1);
-  output.innerHTML = "--- d1: " + d1;
+  var date = stringToDate(dateString);
 
-  output.innerHTML+= "<br>"
-
-  var d2 = new Date;
-  d2.setTime(Date.parse(dateString));
-  console.log("--- d2: " + d2);
-  output.innerHTML += "--- d2: " + d2;
+  output.innerHTML = date;
 </script>
