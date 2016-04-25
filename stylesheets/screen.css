@@ -77,3 +77,8 @@ footer p a {
 p#map-legend a {
   font-size: 0.8em;
 }
+
+.notice {
+  font-size: 0.9em;
+  color: #616161;
+}
