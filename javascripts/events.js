@@ -1,3 +1,11 @@
+function isBlank(property) {
+  if (typeof(property) === 'undefined' || property.length == 0 || property === '') {
+    return true;
+  }
+
+  return false;
+}
+
 function parseEvents() {
   var JSONURL = "http://api.nuitdebout.be/nights/be";
   $.getJSON(JSONURL, function(data) {
