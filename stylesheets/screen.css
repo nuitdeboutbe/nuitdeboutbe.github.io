@@ -1,28 +1,20 @@
 * {
-    font-family: monospace, sans-serif;
-    font-size: 16px;
-    line-height: 1.4em;
-    padding: 0;
-    margin: 0;
-    border: none;
+	font-family: monospace, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+	padding: 0;
+	margin: 0;
+	border: none;
 }
 
-/* Structure ___________________________________________________________________*/
-
-body {
+html {
+  margin-top: 50px;
   background-color: #FBFBFB;
 }
 
-.wrapper{
-    max-width: 625px;
-    width: 90%;
-    padding: 50px 5%;
-    margin: 0 auto;
-}
-
-/* Elements ____________________________________________________________________*/
-
 header, footer, section, h1, h2 {
+  width: 625px;
+  margin: 0px auto;
   margin-bottom: 1em;
   color: #414141;
 }
@@ -49,7 +41,9 @@ section ul {
   margin-left: 20px;
 }
 
-/* Footer ______________________________________________________________________*/
+p#map-legend a {
+  font-size: 0.8em;
+}
 
 footer {
   border-top: 1px #ccc solid;
@@ -67,18 +61,10 @@ footer p a {
   color: #aaa;
 }
 
-/* Map section _________________________________________________________________*/
-
-#map iframe,
-#social iframe {
-  width:100% !important;
-}
-
-p#map-legend a {
-  font-size: 0.8em;
+.notice, .notice a {
+  font-size: 0.9em;
 }
 
 .notice {
-  font-size: 0.9em;
   color: #616161;
 }
