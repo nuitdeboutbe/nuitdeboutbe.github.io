@@ -1,20 +1,28 @@
 * {
-	font-family: monospace, sans-serif;
-  font-size: 16px;
-  line-height: 1.4em;
-	padding: 0;
-	margin: 0;
-	border: none;
+    font-family: monospace, sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
-html {
-  margin-top: 50px;
+/* Structure ___________________________________________________________________*/
+
+body {
   background-color: #FBFBFB;
 }
 
+.wrapper{
+    max-width: 625px;
+    width: 90%;
+    padding: 50px 5%;
+    margin: 0 auto;
+}
+
+/* Elements ____________________________________________________________________*/
+
 header, footer, section, h1, h2 {
-  width: 625px;
-  margin: 0px auto;
   margin-bottom: 1em;
   color: #414141;
 }
@@ -41,9 +49,7 @@ section ul {
   margin-left: 20px;
 }
 
-p#map-legend a {
-  font-size: 0.8em;
-}
+/* Footer ______________________________________________________________________*/
 
 footer {
   border-top: 1px #ccc solid;
@@ -59,6 +65,17 @@ footer p {
 footer p a {
   font-size: 1em;
   color: #aaa;
+}
+
+/* Map section _________________________________________________________________*/
+
+#map iframe,
+#social iframe {
+  width:100% !important;
+}
+
+p#map-legend a {
+  font-size: 0.8em;
 }
 
 .notice, .notice a {
